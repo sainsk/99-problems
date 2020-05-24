@@ -15,6 +15,7 @@ public class P01Test {
     @Test
     public void shouldFindLastElementFromAListOfAlphabets() throws Exception {
         assertThat(P01.last(asList("a", "b", "c", "d")), is(equalTo("d")));
+        assertThat(P01.last(asList("a")), is(equalTo("a")));
     }
 
     @Test
